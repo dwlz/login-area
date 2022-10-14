@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+        <div class="container">
+            <div class="header">
+                <header>
+                <h1>Instanime</h1>
+                <span class="texto">Faça seu login e começe a usar!</span>
+                </header>
+            </div>
+            <div class="main">
+                <label for="email" class="texto-medium label">Endereço de email</label>
+                <div class="containerInput" id="emailError">
+                <img src="—Pngtree—flat envelope_4581314.png" alt="" class="email">
+                <input id="email" type="email" placeholder="johndoe@example.com" class="input">
+                </div>
+                <label for="senha" class="texto-medium label">Sua senha</label>
+                <div class="containerInput" id="senhaError">
+                <img src="pngwing.com.png" alt="" class="senha">
+                <input id="senha" type="password" placeholder="****************" class="input">
+                </div>
+                <div class="checkbox">
+                <input type="checkbox"><span class="texto-small margin label">Lembrar por 30 dias</span>
+                </div>
+                
+                <button class="texto-medium button" onclick="login()">Entrar na Plataforma</button>
+            </div>
+            <div class="footer">
+                <a href="#" class="texto-small margin-text">Esqueceu sua Senha?</a>
+                <a href="#" class="texto-small margin-text">Não possui cadastro?Cadastre-se agora!</a>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
